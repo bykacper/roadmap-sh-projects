@@ -1,0 +1,30 @@
+body {
+    padding: 75px 500px 75px 150px;
+    font-family: monospace;
+    font-size: 180%;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+h3 {
+    font-size: 110%;
+    color: green;
+    font-weight: lighter;
+}
+
+h4 {
+    color: rgb(93, 93, 248);
+    font-weight: lighter;
+    margin: 0;
+}
+
+.date {
+    font-size: 90%;
+}
+
+p {
+    font-size: 85%;
+}
