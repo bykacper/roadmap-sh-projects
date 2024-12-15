@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "question": "What is React?",
+        "answer": "Library for building UI."
+    },
+    {
+        "id": 2,
+        "question": "What is JSX",
+        "answer": "HTML in JavaScript."
+    },
+    {
+        "id": 3,
+        "question": "What is state?",
+        "answer": "Stores component data."
+    },
+    {
+        "id": 4,
+        "question": "What is hook in React?" ,
+        "answer": "Status management function."
+    }
+
+]
