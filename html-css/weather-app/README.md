@@ -1,4 +1,4 @@
 Weather app
 
 preview:
-![image](https://github.com/user-attachments/assets/c0eed4d1-a0c7-4c19-b9c1-80fe41f347e5)
+![Zrzut ekranu (190)](https://github.com/user-attachments/assets/73eafbb2-5a4c-4f31-96cc-90c2aca8a086)
