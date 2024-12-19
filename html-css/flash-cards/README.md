@@ -1,8 +1,5 @@
-# React + Vite
+Flash Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Previev: 
+![Zrzut ekranu (191)](https://github.com/user-attachments/assets/7a1eecad-a275-4d70-a1e2-95652c0be497)
+![Zrzut ekranu (192)](https://github.com/user-attachments/assets/7c9875b3-8834-459a-bd0e-ecce667de354)
