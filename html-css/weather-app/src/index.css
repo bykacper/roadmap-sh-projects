@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
-  font-family: Poiret one;
+  font-family: Quicksand;
 }
 
 body {
@@ -47,7 +49,7 @@ body {
 
 .general-weather p {
   margin: 30px 0 0 30px;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .general-weather hr {
@@ -98,7 +100,7 @@ body {
 
 .weather-highligts {
   width: 75vw;
-  padding: 3% 3vw;
+  padding: 3vh 3vw;
   box-sizing: border-box;
 }
 
@@ -170,4 +172,84 @@ body {
 .active-unit {
   background-color: black;
   color: white;
+}
+
+.forecast-highligts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vh;
+  height: 15vh;
+}
+
+.forecast-highligts-card {
+  background-color: white;
+  border-radius: 15px;
+  width: 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forecast-highligts-card img {
+  width: 50%;
+}
+
+.todays-highlights {
+  margin-top: 5vh;
+  height: 50vh;
+}
+
+.th-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.th-card {
+  background-color: white;
+  width: 20vw;
+  height: 23vh;
+  margin-block: 10px;
+  border-radius: 15px;
+  padding: 2vh 1.5vw;
+  box-sizing: border-box;
+}
+
+.th-card h2 {
+  color: #9e9e9e;
+  font-weight: 300;
+}
+
+.th-card h1 {
+  margin-block: 3vh;
+  font-size: 3rem;
+}
+
+.th-card .wind-icon {
+  width: 2vw;
+}
+
+.th-card .wind-direction {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-size: 1.5rem;  
+}
+
+.sunrise-and-sunset {
+  display: flex;
+  flex-direction: column;
+}
+
+.sunrise-and-sunset img {
+  width: 3vw;
+  margin-block: 1vh;
+}
+
+.sunrise-and-sunset > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 2rem;
 }

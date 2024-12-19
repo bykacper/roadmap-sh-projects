@@ -1,10 +1,15 @@
+import { useCookies } from "react-cookie";
 import { WeatherProvider } from "./context/WeatherContext";
 import TodayWeather from "./layouts/TodayWeather";
-import { useEffect, useState } from "react";
 import WeatherHighligts from "./layouts/WeatherHighligts";
+import { useEffect } from "react";
 
 export default function App() {
-  const [weather, setWeather] = useState(null);
+  const [cookies, setCookies, removeCookies] = useCookies(['temperatureFormat']);
+
+  useEffect(() => {
+    setCookies('temperatureFormat', 'celsius', { path: '/', maxAge: 3600 });
+  }, [])
 
   return (
     <WeatherProvider>
